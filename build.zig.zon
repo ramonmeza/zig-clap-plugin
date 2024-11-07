@@ -1,0 +1,16 @@
+.{
+    .name = "zig-clap-plugin",
+    .version = "0.1.0",
+
+    .dependencies = .{ .clap = .{
+        .path = "deps/zig-clap",
+    } },
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "LICENSE",
+        "README.md",
+    },
+}

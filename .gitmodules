@@ -1,0 +1,3 @@
+[submodule "deps/zig-clap"]
+	path = deps/zig-clap
+	url = git@github.com:ramonmeza/zig-clap.git
